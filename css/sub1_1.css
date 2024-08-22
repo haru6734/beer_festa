@@ -36,7 +36,7 @@
 
 #poster .pos_img { width: calc(100% / 2); height: 100%;}
 
-#poster .pos_txt { width: calc(100% / 2); padding-top: 80px;}
+#poster .pos_txt { width: calc(100% / 2); height: 100%; padding-top: 80px;}
 
 #poster .pos_txt ul { display: flex; gap: 30px; width: 100%; font-size: 2rem; padding: 15px 0;}
 
