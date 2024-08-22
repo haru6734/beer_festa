@@ -48,6 +48,17 @@
 #poster .pos_txt ul li p { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%;}
 
 
+@media (max-width:1600px) {
+    #poster .pos_info { width: 100%;}
+    #poster .pos_img { width: 100%; height: 100%;}
+    #poster .pos_img img { display: block; width: 100%; height: 100%;}
+
+    #poster .pos_txt { width: 100%; padding-top: 3%;}
+    #poster .pos_txt ul { gap: 15px;}
+    #poster .pos_txt ul li:first-of-type { width: 40%; height: 50px; background: #FFD700; text-align: center; padding-top: 15px; color: #000; font-weight: 700; font-size: 1.5rem;}
+    #poster .pos_txt ul li:last-of-type { width: calc(100% - 40%); height: 50px; padding-top: 2%; font-size: 1.3rem;}
+}
+
 @media (max-width:768px) {
     #poster .pos_info { width: 100%; flex-wrap: wrap;}
     #poster .pos_img { width: 100%; height: 100%;}
